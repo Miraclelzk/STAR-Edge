@@ -2,7 +2,7 @@
 
 In this work, we presented **STAR-Edge**, a novel point cloud edge extraction approach specifically designed for thin-walled structures. The core of our method is the introduction of a new structure-aware neighborhood representation—the local spherical curve. This representation effectively emphasizes co-planar points while minimizing interference from unrelated surfaces, enabling robust and accurate edge detection in complex thin-walled geometries.
 
-![](fig\fig1.png)
+![](fig/fig1.png)
 
 ## Preparation
 
@@ -85,11 +85,11 @@ python eval_thin.py
 
 **Visual comparison on the thin-walled structure dataset.**
 
-![](fig\fig2.png)
+![](fig/fig2.png)
 
 **Visual comparison on 3D shapes from the ABC dataset.**
 
-![](fig\fig3.png)
+![](fig/fig3.png)
 
 **Visualization on real thin-walled structure data.**
 
