@@ -8,13 +8,13 @@ import time
 
 import LocalSH.LocalSHFeature as localsh_feature
 
-pc_dir = "/opt/data/private/LocalSphericalFeature/dataset/pc"
+pc_dir = "dataset/pc"
 # pc_paths = natsorted([os.path.join(pc_dir, file) for file in os.listdir(pc_dir) if file.endswith('Descs_matrix.txt')])
 pc_paths = natsorted([os.path.join(pc_dir, file) for file in os.listdir(pc_dir) if file.endswith('txt')], reverse=True)
 # pc_paths = natsorted([os.path.join(pc_dir, file) for file in os.listdir(pc_dir) if file.endswith('txt')])
-gt_dir = "/opt/data/private/LocalSphericalFeature/gt/"
+gt_dir = "dataset/gt/"
 
-save_dir = "/opt/data/private/LocalSphericalFeature/pre_data/"
+save_dir = "dataset_pre/"
 
 if not os.path.exists(os.path.join(save_dir,"desc")):
     os.makedirs(os.path.join(save_dir,"desc"))

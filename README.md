@@ -59,7 +59,7 @@ python eval_all.py
           |-- gt
           |-- pc
   |-- dataset_pre/
-      |-- pre_data_thin/
+      |-- dataset_pre_thin/
           |-- cls_gt
           |-- desc
           |-- pc_normal

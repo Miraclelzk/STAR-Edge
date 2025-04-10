@@ -5,7 +5,7 @@ import numpy as np
 import random
 
 class SigmoidDataset_eval(Dataset):
-    def __init__(self, sequs=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'], neg_ratio=1, desc_folder="./pre_data/desc", gt_folder="./pre_data/gt", eva_ratio=1) -> None:
+    def __init__(self, sequs=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'], neg_ratio=1, desc_folder="./dataset_pre/desc", gt_folder="./dataset_pre/gt", eva_ratio=1) -> None:
         super().__init__()
         print(sequs)
         self.descs = []
@@ -52,7 +52,7 @@ class SigmoidDataset_eval(Dataset):
 
 
 class SigmoidDataset_train(Dataset):
-    def __init__(self, sequs=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'], neg_ratio=1, desc_folder="./pre_data/desc", gt_folder="./pre_data/gt", eva_ratio=1) -> None:
+    def __init__(self, sequs=['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'], neg_ratio=1, desc_folder="./dataset_pre/desc", gt_folder="./dataset_pre/gt", eva_ratio=1) -> None:
         super().__init__()
         print(sequs)
         self.descs = []
@@ -97,7 +97,7 @@ class SigmoidDataset_train(Dataset):
 
 
 class evalDataset(Dataset):
-    def __init__(self, sequs=['1', '2'], desc_folder="./pre_data/desc", gt_folder="./pre_data/gt") -> None:
+    def __init__(self, sequs=['1', '2'], desc_folder="./dataset_pre/desc", gt_folder="./dataset_pre/gt") -> None:
         super().__init__()
         self.descs = []
         self.pairs = []

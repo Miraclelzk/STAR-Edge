@@ -5,9 +5,9 @@ running:
   test_seqs: ['33', '34', '35', '36', '37', '38', '39', '40', '41', '42']
   sample: [0.3 ,0.5, 0.8]
   noise: [0.001, 0.005, 0.03 ]
-  pc_folder: "./pre_data/pc_normal"
-  desc_folder: "./pre_data/desc"
-  gt_folder: "./pre_data/cls_gt"
+  pc_folder: "./dataset_pre/pc_normal"
+  desc_folder: "./dataset_pre/desc"
+  gt_folder: "./dataset_pre/cls_gt"
   save_folder: "./result/thin_walled"
   learning_rate: 0.02
   weight_decay: 1.0e-6

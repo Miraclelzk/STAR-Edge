@@ -12,7 +12,7 @@ pc_dir = "dataset/pc"
 pc_paths = natsorted([os.path.join(pc_dir, file) for file in os.listdir(pc_dir) if file.endswith('txt')])
 gt_dir = "dataset/gt/"
 
-save_dir = "pre_data/"
+save_dir = "dataset_pre/"
 
 # LSC
 bw = 10
